@@ -12,7 +12,15 @@ module.exports = {
         '2xl': '7rem',
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        family: ['Roboto', 'sans-serif']
+      },
+      colors: {
+        textColor: "#717171",
+        titleColor: "#222222"
+      }
+    },
   },
   plugins: [],
 }
